@@ -62,7 +62,7 @@ const Loading1: React.FC<Loading1Props> = ({ navigation }) => {
                         <TouchableOpacity
                             style={styles.btnT}
                             onPress={() => {
-                                navigation.navigate("Quetma");
+                                navigation.navigate("Scan");
                                 setModalVisible(!modalVisible);
                                 console.log("OK");
                             }}
